@@ -1,0 +1,11 @@
+.photo {
+    width: 48px;
+    height: 52px;
+    left: 25px;
+    top: 11px;
+}
+
+.navItem {
+    font-weight: bold;
+    color: #584E4E;
+}
