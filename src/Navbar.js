@@ -106,24 +106,4 @@ const Example = (props) => {
   );
 }
 
-// function About() {
-//   return <h2>About</h2>;
-// }
-
-// function OurProgram() {
-//   return <h2>Our Program</h2>;
-// }
-
-// function FAQ() {
-//   return <h2>FAQ</h2>;
-// }
-
-// function JoinUs() {
-//   return <h2>Join Us</h2>;
-// }
-
-// function Donate() {
-//   return <h2>Donate</h2>;
-// }
-
 export default Example;
