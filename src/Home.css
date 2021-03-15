@@ -1,0 +1,13 @@
+.banner {
+    background-color: lightblue;
+    height: 300px
+}
+
+.vertical-center {
+    display: flex;
+    align-items: center;
+}
+
+.description {
+    font-size: 26px
+}
