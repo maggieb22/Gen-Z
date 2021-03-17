@@ -22,6 +22,7 @@ import {
   // Link
 } from "react-router-dom";
 
+import Home from './Home';
 import Modules from "./Modules";
 import About from "./About";
 import OurProgram from "./OurProgram";
@@ -37,8 +38,8 @@ const Example = (props) => {
   return (
     <Router>
       <div>
-        <Navbar color="FFFFFF" light expand="md">
-          <NavbarBrand><a href="/index"><img className = "photo" src={logo} roundedCircle /></a></NavbarBrand>
+        <Navbar color="FFFFFF" light expand="md" style={{backgroundColor: 'white'}}>
+          <NavbarBrand><a href="/"><img className="photo" alt="logo" src={logo} roundedCircle /></a></NavbarBrand>
           <NavbarToggler onClick={toggle} />
           <Collapse isOpen={isOpen} navbar>
             <Nav className="ml-auto" navbar>
@@ -99,6 +100,9 @@ const Example = (props) => {
           </Route>
           <Route path="/donate/">
             <Donate />
+          </Route>
+          <Route exact path="/">
+            <Home />
           </Route>
         </Switch>
       </div>
