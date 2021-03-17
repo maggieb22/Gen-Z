@@ -38,7 +38,7 @@ const Example = (props) => {
   return (
     <Router>
       <div>
-        <Navbar color="FFFFFF" light expand="md">
+        <Navbar color="FFFFFF" light expand="md" style={{backgroundColor: 'white'}}>
           <NavbarBrand><a href="/"><img className="photo" alt="logo" src={logo} roundedCircle /></a></NavbarBrand>
           <NavbarToggler onClick={toggle} />
           <Collapse isOpen={isOpen} navbar>

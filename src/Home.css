@@ -1,6 +1,8 @@
 .banner {
-    background-color: lightblue;
-    height: 300px
+    /* background-color: lightblue; */
+    background-image: url("./pexel-resized.jpg");
+    background-size: cover;
+    height: 300px;
 }
 
 .vertical-center {
@@ -9,5 +11,13 @@
 }
 
 .description {
-    font-size: 26px
+    font-size: 26px;
+}
+
+.card {
+    transition: all .1s ease-in-out;
+}
+
+.card:hover {
+    transform: translate3d(0px, -7px, 0px);
 }
