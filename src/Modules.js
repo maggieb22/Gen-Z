@@ -1,5 +1,4 @@
 import React from 'react';
-import "./modules.css";
 import {
     CardDeck, 
     Row, 
