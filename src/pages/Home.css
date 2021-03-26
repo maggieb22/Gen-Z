@@ -1,6 +1,6 @@
 .banner {
     /* background-color: lightblue; */
-    background-image: url("./pexel-resized.jpg");
+    background-image: url("../photos/pexel-resized.jpg");
     background-size: cover;
     height: 300px;
 }

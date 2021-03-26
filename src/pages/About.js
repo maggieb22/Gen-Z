@@ -1,11 +1,11 @@
 import React from 'react';
 import "./about.css";
-import margaret from './photos/margaret.jpeg'
-import nick from './photos/nick.png'
-import jasmine from './photos/jasmine.jpeg'
-import sara from './photos/sara.jpeg'
+import margaret from '../photos/margaret.jpeg'
+import nick from '../photos/nick.png'
+import jasmine from '../photos/jasmine.jpeg'
+import sara from '../photos/sara.jpeg'
 
-import AboutCard from "./AboutCard"
+import AboutCard from "../components/AboutCard"
 import {
   CardDeck, 
   Row, 

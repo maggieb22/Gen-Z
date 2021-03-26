@@ -1,8 +1,8 @@
 import React from "react"
 
-import Header from "./Header"
+import Header from "./components/Header"
 import MainContent from "./MainContent"
-import Footer from "./Footer"
+import Footer from "./components/Footer"
 import './App.css'
 
 function App() {

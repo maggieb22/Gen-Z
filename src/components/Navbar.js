@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import logo from './gen-z-logo.png';
+import logo from '../photos/gen-z-logo.png'
 import "./nav.css";
 import {
   Collapse,
@@ -22,13 +22,13 @@ import {
   // Link
 } from "react-router-dom";
 
-import Home from './Home';
-import Modules from "./Modules";
-import About from "./About";
-import OurProgram from "./OurProgram";
-import FAQ from "./FAQ";
-import JoinUs from "./JoinUs";
-import Donate from "./Donate";
+import Home from '../pages/Home';
+import Modules from "../pages/Modules";
+import About from "../pages/About";
+import OurProgram from "../pages/OurProgram";
+import FAQ from "../pages/FAQ";
+import JoinUs from "../pages/JoinUs";
+import Donate from "../pages/Donate";
 
 const Example = (props) => {
   const [isOpen, setIsOpen] = useState(false);
