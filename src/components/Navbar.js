@@ -8,18 +8,12 @@ import {
   NavbarBrand,
   Nav,
   NavItem,
-  NavLink,
-  // UncontrolledDropdown,
-  // DropdownToggle,
-  // DropdownMenu,
-  // DropdownItem,
-  // NavbarText
+  NavLink
 } from 'reactstrap';
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  // Link
+  Route
 } from "react-router-dom";
 
 import Home from '../pages/Home';
@@ -61,23 +55,6 @@ const Example = (props) => {
               <NavItem className="navItem">
                 <NavLink href="/donate/">Donate</NavLink>
               </NavItem>
-              {/* <UncontrolledDropdown nav inNavbar> 
-                <DropdownToggle nav caret>
-                  Options
-                </DropdownToggle>
-                <DropdownMenu right>
-                  <DropdownItem>
-                    Option 1
-                  </DropdownItem>
-                  <DropdownItem>
-                    Option 2
-                  </DropdownItem>
-                  <DropdownItem divider />
-                  <DropdownItem>
-                    Reset
-                  </DropdownItem>
-                </DropdownMenu>
-              </UncontrolledDropdown>*/}
             </Nav>
           </Collapse>
         </Navbar>

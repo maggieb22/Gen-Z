@@ -5,6 +5,39 @@
     top: 11px;
 }
 
+.fb {
+    width: 30px;
+    height: 32px;
+    left: 25px;
+    top: 11px;
+}
+
+.tw {
+    width: 30px;
+    height: 32px;
+    left: 25px;
+    top: 11px;
+}
+
+.ig {
+    width: 32px;
+    height: 32px;
+    left: 25px;
+    top: 11px;
+}
+
+.in {
+    width: 30px;
+    height: 34px;
+    left: 25px;
+    top: 11px;
+}
+
+.copyright {
+    font-size: smaller;
+    color: #584E4E;
+}
+
 .navItem {
     font-weight: bold;
     color: #584E4E;
