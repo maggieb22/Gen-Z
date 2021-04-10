@@ -4,12 +4,16 @@ import {
     Row, 
     Col, 
     Container
-  } from 'reactstrap';
-  import {
+} from 'reactstrap';
+import {
     Card, CardImg, CardText, CardBody,
     CardTitle, CardSubtitle, Button
-  } from 'reactstrap';
-  import ScrollableAnchor from 'react-scrollable-anchor'
+} from 'reactstrap';
+
+import ScrollableAnchor from 'react-scrollable-anchor'
+
+import module1Image from '../photos/module1.png'
+
 
 function Modules() {
     return (
@@ -32,12 +36,12 @@ function Modules() {
                     
                     <Col>
                         <Card>
-                            <CardImg top width="100%" src="https://mkar.com.ar/wp-content/uploads/2018/04/Blanco-Brillante.jpg" alt="Card image cap" />
+                            <a href="https://docs.google.com/presentation/d/1FszR9vD1uTSaHS9VDeGRDQlYnC9W0gN9fwVoRwE-sno/edit?usp=sharing"><CardImg top width="100%" src={module1Image} alt="Module 1 Photo" /></a>
                             <CardBody>
                             <ScrollableAnchor id={'mod1'}>
                                 <CardTitle tag="h5">Module 1</CardTitle>
                             </ScrollableAnchor>
-                            <CardSubtitle tag="h6" className="mb-2 text-muted">Lorem ipsum dolor sit amet</CardSubtitle>
+                            <CardSubtitle tag="h6" className="mb-2 text-muted">Doing Your Taxes</CardSubtitle>
                             </CardBody>
                         </Card>
                         <br></br>
