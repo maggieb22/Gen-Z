@@ -8,8 +8,7 @@ import sara from '../photos/sara.jpeg'
 import AboutCard from "../components/AboutCard"
 import {
   CardDeck, 
-  Row, 
-  Col, 
+  Row,
   Container
 } from 'reactstrap';
 

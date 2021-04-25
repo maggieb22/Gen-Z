@@ -6,15 +6,11 @@ import {
   Card, 
   CardTitle, 
   CardText, 
-  Button, 
-  Form, 
-  FormGroup, 
-  Label, 
-  Input, 
-  FormText
+  Button
 } from 'reactstrap';
 
 import './Home.css';
+import Contact from './Contact.js'
 
 const Home = props => {
   return (
@@ -104,20 +100,7 @@ const Home = props => {
       </div>
       <div class="my-5">
         <h2>Contact Us</h2>
-        <Container>
-          <Row className="justify-content-md-center">
-            <Col md="9">
-              <Form>
-                <Input type="email" placeholder="Email:" className="my-2"></Input>
-                <Input type="text" placeholder="Subject:" className="my-2"></Input>
-                <Input type="textarea" placeholder="Message:" className="my-2"></Input>
-                <div class="text-right">
-                  <Button>Submit</Button>
-                </div>
-              </Form>
-            </Col>
-          </Row>
-        </Container>
+        <Contact />
       </div>
     </React.Fragment>
   )

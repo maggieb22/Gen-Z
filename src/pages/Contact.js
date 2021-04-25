@@ -1,3 +1,14 @@
+import React from 'react';
+import axios from 'axios';
+import {
+    Row, 
+    Col, 
+    Container,
+    Button, 
+    Form,
+    Input
+  } from 'reactstrap';
+
 class Contact extends React.Component {
 
     constructor(props) {
@@ -88,3 +99,5 @@ class Contact extends React.Component {
         )
     }
 }
+
+export default Contact;

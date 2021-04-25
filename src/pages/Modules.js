@@ -1,13 +1,12 @@
 import React from 'react';
 import {
-    CardDeck, 
     Row, 
     Col, 
     Container
 } from 'reactstrap';
 import {
     Card, CardImg, CardText, CardBody,
-    CardTitle, CardSubtitle, Button
+    CardTitle, CardSubtitle
 } from 'reactstrap';
 
 import ScrollableAnchor from 'react-scrollable-anchor'
