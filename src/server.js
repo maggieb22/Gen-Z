@@ -1,5 +1,5 @@
-var app = express(); 
 const express = require('express');
+var app = express(); 
 const nodemailer = require('nodemailer');
 const cors = require('cors');
 const { ButtonDropdown } = require('reactstrap');
@@ -31,7 +31,7 @@ app.post('/send', (req, res, next) => {
   
     var mail = {
       //to: maggie@gen-z-project.org, // receiver email,
-      to: sophia_liu@brown.edu, // receiver email,
+      to: sophia_liu, // receiver email,
       subject: subject,
       text: message
     }
