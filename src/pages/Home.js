@@ -37,7 +37,7 @@ const Home = props => {
           <Col lg={{ size: 8, offset: 2}} className="center mx-3">
             <p className="description">At The Gen-Z Project we recognize the lack of personal financial education provided for high schoolers. 
               Using our position as college students, we aim to help younger students learn difficult financial topics, 
-              such as investing, taxes, college loans, credit, and budgeting. More about us.
+              such as investing, taxes, college loans, credit, and budgeting. More about us. {/* add link here*/}
             </p>
           </Col>
         </Row>
@@ -99,7 +99,6 @@ const Home = props => {
         </Container>
       </div>
       <div class="my-5">
-        <h2>Contact Us</h2>
         <Contact />
       </div>
     </React.Fragment>
