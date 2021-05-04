@@ -5,10 +5,14 @@ const cors = require('cors');
 const { ButtonDropdown } = require('reactstrap');
 require("dotenv").config();
 
+app.listen(5877, () => {
+  console.log(`nodemailerProject is listening at http://localhost:${5877}`)
+})
+
 const transporter = nodemailer.createTransport({
     //host: "gen-z-project.org", //replace with your email provider // gmail.com
     host: "brown.edu", //replace with your email provider // gmail.com
-    port: 587,
+    port: 5877,
     auth: {
       user: process.env.EMAIL,
       pass: process.env.PASSWORD
@@ -25,18 +29,20 @@ transporter.verify(function(error, success) {
 });
    
 app.post('/send', (req, res, next) => {
+  console.log(message);
     var email = req.body.email
     var subject = req.body.subject
     var message = req.body.message
   
     var mail = {
       //to: maggie@gen-z-project.org, // receiver email,
-      to: sophia_liu, // receiver email,
+      to: yingzhe_guo, // receiver email,
       subject: subject,
       text: message
     }
   
     transporter.sendMail(mail, (err, data) => {
+      console.log("SENT")
       if (err) {
         res.json({
           status: 'fail'
