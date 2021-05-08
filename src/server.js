@@ -1,20 +1,17 @@
 const express = require('express');
-var app = express(); 
+const router = express.Router(); 
 const nodemailer = require('nodemailer');
 const cors = require('cors');
 const { ButtonDropdown } = require('reactstrap');
 require("dotenv").config();
 
-app.listen(5877, () => {
-  console.log(`nodemailerProject is listening at http://localhost:${5877}`)
-})
-
+console.log(process.env.EMAIL);
 const transporter = nodemailer.createTransport({
     //host: "gen-z-project.org", //replace with your email provider // gmail.com
     host: "brown.edu", //replace with your email provider // gmail.com
     port: 5877,
     auth: {
-      user: process.env.EMAIL,
+      user: process.env.EMAIL, // need to set process.env.EMAIL/PASSWORD
       pass: process.env.PASSWORD
     }
 });
@@ -28,19 +25,18 @@ transporter.verify(function(error, success) {
     }
 });
    
-app.post('/send', (req, res, next) => {
-  console.log(message);
+router.post('/send', (req, res, next) => {
     var email = req.body.email
     var subject = req.body.subject
     var message = req.body.message
-  
+
     var mail = {
       //to: maggie@gen-z-project.org, // receiver email,
-      to: yingzhe_guo, // receiver email,
+      to: 'yingzhe_guo', // receiver email,
       subject: subject,
       text: message
     }
-  
+    console.log(message);
     transporter.sendMail(mail, (err, data) => {
       console.log("SENT")
       if (err) {
@@ -49,8 +45,14 @@ app.post('/send', (req, res, next) => {
         })
       } else {
         res.json({
-         status: 'success'
+          status: 'success'
         })
       }
     })
 })
+
+const app = express()
+app.use(cors())
+app.use(express.json())
+app.use('/', router)
+app.listen(5877)

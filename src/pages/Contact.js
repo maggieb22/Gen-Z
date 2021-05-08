@@ -41,7 +41,7 @@ class Contact extends React.Component {
         e.preventDefault();
         axios({
           method: "POST", 
-          url:'/send', 
+          url:'http://localhost:5877/send', 
           data:  this.state
         }).then((response)=>{
           if (response.data.status === 'success'){
@@ -65,7 +65,7 @@ class Contact extends React.Component {
                     <Row className="justify-content-md-center">
                     <Col md="9">
                         <Form id="contact-form" onSubmit={this.submitEmail.bind(this)} 
-                                    method="POST" action="http://localhost:5877">
+                                    method="POST">
                         <Input 
                             type="email" 
                             placeholder="Email:" 
