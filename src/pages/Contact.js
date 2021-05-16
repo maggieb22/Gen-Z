@@ -41,7 +41,7 @@ class Contact extends React.Component {
         e.preventDefault();
         axios({
           method: "POST", 
-          url:'http://localhost:5877/send', 
+          url:'http://localhost:5000/mail', 
           data:  this.state
         }).then((response)=>{
           if (response.data.status === 'success'){

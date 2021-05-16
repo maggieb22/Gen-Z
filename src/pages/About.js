@@ -15,8 +15,9 @@ import {
 function About() {
     return (
         <div>
-          <h2 style={{textAlign: "left", fontWeight: "bold", color: "584E4E", padding: "3rem"}}>Our Team</h2>
+          <div class="my-5">
           <Container>
+            <Row><h2 style={{fontWeight: "bold", color: "584E4E", padding: "1rem"}}>Our Team</h2></Row>
             <Row className="justify-content-md-center">
               <CardDeck>
                 <AboutCard photo={margaret} name="Margaret Baker" bio="I am a sophomore at Brown University studying behavioral decision science and economics. I was inspired to work on this project as I want to make education surrounding personal finance more accessible to all. I run the 400m for the Brown Track and Field team and enjoy wake surfing and mountain biking in my free time." />
@@ -28,6 +29,7 @@ function About() {
               </CardDeck>
             </Row>
           </Container>
+          </div>
         </div>
     )
 }

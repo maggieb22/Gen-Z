@@ -16,10 +16,14 @@ import module1Image from '../photos/module1.png'
 
 function Modules() {
     return (
-        <div>
-            <h2 style={{textAlign: "left", fontWeight: "bold", color: "584E4E", padding: "3rem"}}>Modules</h2>
+        <div>            
             <div class="my-5">
-                <Container>
+            <Container>
+                <Row>
+                    <h2 style={{textAlign: "left", fontWeight: "bold", color: "584E4E", padding: "1rem"}}>Modules</h2>
+                </Row>
+                
+                
                 <Row>
                     <div class="fixed-left">
                         <CardBody>
@@ -102,8 +106,7 @@ function Modules() {
                             <CardSubtitle tag="h6" className="mb-2 text-muted">Lorem ipsum dolor sit amet</CardSubtitle>
                             </CardBody>
                         </Card>
-                    </Col>
-                    
+                    </Col>                    
                 </Row>
                 </Container>
             </div>
