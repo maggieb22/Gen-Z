@@ -19,11 +19,9 @@ function Modules() {
         <div>            
             <div class="my-5">
             <Container>
-                <Row>
+                <Row className="justify-content-md-center">                    
                     <h2 style={{textAlign: "left", fontWeight: "bold", color: "584E4E", padding: "1rem"}}>Modules</h2>
                 </Row>
-                
-                
                 <Row>
                     <div class="fixed-left">
                         <CardBody>
@@ -35,8 +33,7 @@ function Modules() {
                         <a href='#mod5'><CardText className="mb-2 text-muted">Module 5</CardText></a>
                         <a href='#mod6'><CardText className="mb-2 text-muted">Module 6</CardText></a>
                         </CardBody>
-                    </div>
-                    
+                    </div>                    
                     <Col>
                         <Card>
                             <a href="https://docs.google.com/presentation/d/1FszR9vD1uTSaHS9VDeGRDQlYnC9W0gN9fwVoRwE-sno/edit?usp=sharing"><CardImg top width="100%" src={module1Image} alt="Module 1 Photo" /></a>

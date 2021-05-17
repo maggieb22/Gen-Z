@@ -44,12 +44,10 @@ class Contact extends React.Component {
           url:'http://localhost:5000/mail', 
           data:  this.state
         }).then((response)=>{
-          if (response.data.status === 'success'){
-              alert("Message Sent."); 
-              this.resetForm()
-          } else if (response.data.status === 'fail') {
-              alert("Message failed to send.")
-          }
+            alert("Message Sent."); 
+            this.resetForm()
+        }).catch(error=>{
+            alert("Message failed to send.")
         })
     }
 

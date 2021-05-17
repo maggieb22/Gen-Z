@@ -17,9 +17,9 @@ function About() {
         <div>
           <div class="my-5">
           <Container>
-            <Row><h2 style={{fontWeight: "bold", color: "584E4E", padding: "1rem"}}>Our Team</h2></Row>
-            <Row className="justify-content-md-center">
-              <CardDeck>
+            <Row className="justify-content-md-center"><h2 style={{fontWeight: "bold", color: "584E4E", padding: "1rem"}}>Our Team</h2></Row>
+            <Row className="justify-content-md-center">            
+              <CardDeck>                
                 <AboutCard photo={margaret} name="Margaret Baker" bio="I am a sophomore at Brown University studying behavioral decision science and economics. I was inspired to work on this project as I want to make education surrounding personal finance more accessible to all. I run the 400m for the Brown Track and Field team and enjoy wake surfing and mountain biking in my free time." />
                 <AboutCard photo={nick} name="Nick Sawicki" bio="I am a sophomore at Brown University studying economics and biology on the premed track. I’m passionate about personal finance and believe that it’s extremely important to know how to intelligently manage your money, regardless of whatever profession you decide to pursue in life. When I’m not helping out on The Gen-Z Project, I am busy conducting Pediatric Gastroenterology research at Rhode Island Hospital and working part-time for Bullseye Admissions college counseling service. I’m an avid biker and can be spotted on the East Bay Bike Path any day of the week." />
               </CardDeck>

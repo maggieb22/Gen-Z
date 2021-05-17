@@ -22,24 +22,17 @@ app.post('/mail', (req, res) => {
   var message = req.body.message
 
   var mailOptions = {
-    to: process.env.EMAIL // receiver email
+    to: process.env.email,
     subject: subject,
     text: message + ' -- From: ' + email
   }
-  
-  // var mailOptions = {
-  //   from: 'jenny_tan1@brown.edu', // this doesn't matter
-  //   to: process.env.EMAIL,
-  //   subject: 'Email subject',
-  //   text: 'Hello world!'
-  // };
 
   transporter.sendMail(mailOptions, function (error, info) {
     if (error) {
       console.log(error);
     } else {
       console.log('Email sent: ' + info.response);
-      res.send('Success!')
+      res.send('success')
     }
   });
 })

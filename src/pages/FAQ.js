@@ -15,7 +15,7 @@ import {
 function FAQ() {
     return (
         <div>
-            <h2 style={{textAlign: "left", fontWeight: "bold", color: "584E4E", padding: "3rem"}}>FAQ</h2>
+            <h2 style={{textAlign: "center", fontWeight: "bold", color: "584E4E", padding: "3rem"}}>FAQ</h2>
             <Container>
             <Row>
               <Col>
