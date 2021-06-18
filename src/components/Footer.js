@@ -38,22 +38,22 @@ const MyFooter = (props) => {
           <Collapse isOpen={isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem className="navItem">
-                <NavLink href="/modules/">Modules</NavLink>
+                <NavLink className="navLink2" href="/modules/">Modules</NavLink>
               </NavItem>
               <NavItem className="navItem">
-                <NavLink href="/about/">About Us</NavLink>
+                <NavLink className="navLink2" href="/about/">About Us</NavLink>
               </NavItem >
               <NavItem className="navItem">
-                <NavLink href="/our-program/">Our Program</NavLink>
+                <NavLink className="navLink2" href="/our-program/">Our Program</NavLink>
               </NavItem>
               <NavItem className="navItem">
-                <NavLink href="/faq">FAQ</NavLink>
+                <NavLink className="navLink2" href="/faq">FAQ</NavLink>
               </NavItem>
               <NavItem className="navItem">
-                <NavLink href="/join-us/">Join Us</NavLink>
+                <NavLink className="navLink2" href="/join-us/">Join Us</NavLink>
               </NavItem>
               <NavItem className="navItem">
-                <NavLink href="/donate/">Donate</NavLink>
+                <NavLink className="navLink2" href="/donate/">Donate</NavLink>
               </NavItem>
             </Nav>
           </Collapse>

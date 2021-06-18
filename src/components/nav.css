@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@800&display=swap');
+
+body {
+    font-family: 'Sarabun', sans-serif;
+}
+
 .photo {
     width: 48px;
     height: 52px;
@@ -38,7 +44,25 @@
     color: #584E4E;
 }
 
-.navItem {
+/* .navItem {
     font-weight: bold;
     color: #584E4E;
+} */
+
+
+.navLink{
+    font-weight: bold;
+    color: #597f43 !important;
 }
+
+.navLink2{
+    font-weight: bold;
+}
+
+hr {
+    border: 0;
+    clear:both;
+    display:block;
+    width: 150%;               
+    /* background-color:#999999; */
+  }

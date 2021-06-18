@@ -38,26 +38,32 @@ const Example = (props) => {
           <Collapse isOpen={isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem className="navItem">
-                <NavLink href="/modules/">Modules</NavLink>
+                <NavLink className="navLink" href="/modules/">Modules</NavLink>
               </NavItem>
               <NavItem className="navItem">
-                <NavLink href="/about/">About Us</NavLink>
+                <NavLink className="navLink" href="/about/">About Us</NavLink>
               </NavItem >
               <NavItem className="navItem">
-                <NavLink href="/our-program/">Our Program</NavLink>
+                <NavLink className="navLink" href="/our-program/">Our Program</NavLink>
               </NavItem>
               <NavItem className="navItem">
-                <NavLink href="/faq">FAQ</NavLink>
+                <NavLink className="navLink" href="/faq">FAQ</NavLink>
               </NavItem>
               <NavItem className="navItem">
-                <NavLink href="/join-us/">Join Us</NavLink>
+                <NavLink className="navLink" href="/join-us/">Join Us</NavLink>
               </NavItem>
               <NavItem className="navItem">
-                <NavLink href="/donate/">Donate</NavLink>
+                <NavLink className="navLink" href="/donate/">Donate</NavLink>
               </NavItem>
+              
             </Nav>
           </Collapse>
         </Navbar>
+        {/* style={{backgroundColor: 'white'}} */}
+        <div style={{backgroundColor: 'white'}}>
+          <hr />
+        </div>
+        
 
         <Switch>
           <Route path="/modules/">

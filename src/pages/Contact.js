@@ -8,7 +8,7 @@ import {
     Form,
     Input
   } from 'reactstrap';
-
+import './Home.css';
 class Contact extends React.Component {
 
     constructor(props) {
@@ -58,7 +58,7 @@ class Contact extends React.Component {
     render() {
         return (
             <div class="my-5">
-                <h2>Contact Us</h2>
+                <h2 id="h1-id">Contact Us</h2>
                 <Container>
                     <Row className="justify-content-md-center">
                     <Col md="9">
