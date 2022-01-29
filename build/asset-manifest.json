@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/starter-project/static/css/main.7890c219.chunk.css",
+    "main.js": "/starter-project/static/js/main.15a48b05.chunk.js",
+    "main.js.map": "/starter-project/static/js/main.15a48b05.chunk.js.map",
+    "runtime-main.js": "/starter-project/static/js/runtime-main.b8bf493d.js",
+    "runtime-main.js.map": "/starter-project/static/js/runtime-main.b8bf493d.js.map",
+    "static/css/2.081f420c.chunk.css": "/starter-project/static/css/2.081f420c.chunk.css",
+    "static/js/2.6121da3e.chunk.js": "/starter-project/static/js/2.6121da3e.chunk.js",
+    "static/js/2.6121da3e.chunk.js.map": "/starter-project/static/js/2.6121da3e.chunk.js.map",
+    "static/js/3.9711fb6b.chunk.js": "/starter-project/static/js/3.9711fb6b.chunk.js",
+    "static/js/3.9711fb6b.chunk.js.map": "/starter-project/static/js/3.9711fb6b.chunk.js.map",
+    "index.html": "/starter-project/index.html",
+    "static/css/2.081f420c.chunk.css.map": "/starter-project/static/css/2.081f420c.chunk.css.map",
+    "static/css/main.7890c219.chunk.css.map": "/starter-project/static/css/main.7890c219.chunk.css.map",
+    "static/js/2.6121da3e.chunk.js.LICENSE.txt": "/starter-project/static/js/2.6121da3e.chunk.js.LICENSE.txt",
+    "static/media/cardsphoto1.f80e706c.png": "/starter-project/static/media/cardsphoto1.f80e706c.png",
+    "static/media/cardsphoto2.d3338803.png": "/starter-project/static/media/cardsphoto2.d3338803.png",
+    "static/media/cardsphoto3.c8c6cd5e.png": "/starter-project/static/media/cardsphoto3.c8c6cd5e.png",
+    "static/media/gen-z-logo.f7aea555.png": "/starter-project/static/media/gen-z-logo.f7aea555.png",
+    "static/media/Home.css": "/starter-project/static/media/genzbanneredited.14dbc5bb.jpeg",
+    "static/media/instagram.b61edd43.svg": "/starter-project/static/media/instagram.b61edd43.svg",
+    "static/media/jasmine.0b62346d.jpeg": "/starter-project/static/media/jasmine.0b62346d.jpeg",
+    "static/media/margaret.11b09a10.jpeg": "/starter-project/static/media/margaret.11b09a10.jpeg",
+    "static/media/module1.d23ac09d.png": "/starter-project/static/media/module1.d23ac09d.png",
+    "static/media/nick.84786e5d.png": "/starter-project/static/media/nick.84786e5d.png",
+    "static/media/sara.93dba500.jpeg": "/starter-project/static/media/sara.93dba500.jpeg",
+    "static/media/twitter.1f9ae9a8.svg": "/starter-project/static/media/twitter.1f9ae9a8.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b8bf493d.js",
+    "static/css/2.081f420c.chunk.css",
+    "static/js/2.6121da3e.chunk.js",
+    "static/css/main.7890c219.chunk.css",
+    "static/js/main.15a48b05.chunk.js"
+  ]
+}
